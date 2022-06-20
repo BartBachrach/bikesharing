@@ -1,2 +1,2 @@
 # bikesharing
-[link to dashboard](https://public.tableau.com/app/profile/adam.bachrach/viz/ModuleChallengeSubmissionFormat/Module14ChallengeStory)
+[link to dashboard](https://public.tableau.com/app/profile/adam.bachrach/viz/ModuleChallengeFinalSubmission/Story1?publish=yes)
