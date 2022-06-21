@@ -1,2 +1,23 @@
-# bikesharing
 [link to dashboard](https://public.tableau.com/app/profile/adam.bachrach/viz/ModuleChallengeFinalSubmission/Story1?publish=yes)
+
+
+# Bike Sharing Data Analysis
+## Overview
+A group of investors asked us to do an analysis of the Citibike bike sharing program in New York City to explore the viability of doing the same thing in Des Moines, Iowa. Bike and scooter sharing schemes throughout the country have contributed to fewer cars clogging up busy city streets and reducing overall air pollution in a densely populated city center. In addition, they are fun ways of moving about a city and really soaking in the sights and sounds of the city. Our investors wanted to find some key metrics about the bike sharing scheme to plan for a possible future endeavor. They wanted to find out such information as how long the average trip lasted for a rider, where the majority of stop and start locations were, and what the peak hours were for using a citibike. While there are obvious differences between the two cities, New York isn’t the only city with a bike sharing scheme, and because of its size, would make a great case study for this analysis
+
+## Methods
+We received a dataset describing 2.3 million Citibike trips in New York City to perform our analysis. The first step was converting the times logged for trip duration from an integer to a datetime that humans can understand. The data broke down as the start and stop times and locations, the gender of the rider (if they chose to report it), the bike I.D., and the birth year of the rider. From this information we could plot the locations that users most often began and ended their trips, how long the trips were, the gender of the riders, and whether or not the rider was a subscriber or a customer.
+
+## Results
+We first analyzed the average length of a bike trip, which turned out to be 30 minutes or less, suggesting people do not stay on them long, but rather employ them as a means of getting from one place to another, as opposed to riding around the city for hours. We also plotted the same information, broken down by gender, and found that males primarily utilized the bike sharing scheme, but both men and women used the bikes for the same amount of time. 
+
+We discovered the primary users of the bike sharing scheme were subscribers; people who live in the city and use them regularly enough to have a membership with the program. Less than a quarter of trips were by non-subscribing customers. 
+
+We then analyzed the times that bikes were primarily used during the day and week, and found that during the week, bikes were primarily used during commuting times from 7am-9am and from 5pm-7pm. Additionally, we discovered that the bikes were used the least from 1am - 4am. That piece of information is critical because that represents the best time to collect the bikes and perform any necessary maintenance on them. We also broke that down by gender and, like trip duration, found that men and women checked them out at the same times, but men more so than women. We also discovered that on weekends, the bikes were checked out most from 10am - 3pm primarily. However, we did find that on weekends more non-subscribing customers used them than they did during the week, suggesting tourists or people living outside the city center who visit use them when they come on weekends. 
+
+The most popular starting and stopping locations throughout New York City were located from midtown to lower Manhattan, roughly where Times Square is, down to the financial district and where ferries dock to collect passengers to take them to Ellis Island and the Statue of Liberty. In other words, where locals primarily work in New York City and where tourists primarily visit. While Citibikes were utilized in the other four boroughs of New York City, they were overshadowed by those used from midtown to the financial district of Manhattan. 
+
+## Summary
+A bike sharing scheme can work in Des Moines, IA, but it will require planning. Bikes should be located throughout the city center among workspaces and tourist attractions. Many cities have popular breweries, art galleries, and often festivals in the warm months, and many tourists would find it fun to rent bikes or scooters to ride around on and get a better feel for the city they’re visiting on a bike or scooter. 
+
+Locals would use the bikes to go to and from work if they live near downtown or if there are bikes located close to places where they live and work. It would also be a good idea to locate areas outside of just downtown Des Moines to locate some of the bikes, as there are smaller areas in every somewhat large city that are chic and trendy where people would ride around and visit the local restaurants, shops, and other attractions. 
